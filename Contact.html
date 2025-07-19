@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - Parth Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-section {
+      padding: 40px;
+      background-color: #111;
+      color: #fff;
+    }
+
+    .contact-section h2 {
+      font-size: 28px;
+      color: #00ffcc;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .contact-card {
+      background-color: #1a1a1a;
+      border-left: 5px solid #00ffcc;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 255, 204, 0.1);
+      max-width: 600px;
+    }
+
+    .contact-card p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .contact-card i {
+      color: #00ffcc;
+      margin-right: 10px;
+    }
+
+    a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .fade-in-delay-1 { animation-delay: 0.2s; }
+    .fade-in-delay-2 { animation-delay: 0.4s; }
+    .fade-in-delay-3 { animation-delay: 0.6s; }
+    .fade-in-delay-4 { animation-delay: 0.8s; }
+
+    .home{
+        background-color: white;
+    }
+  </style>
+</head>
+<body>
+ <div style="padding: 15px; background-color: #fff;">
+  <a href="index.html" style="text-decoration: none; font-weight: bold; color: #000;">
+    <i class="fas fa-home"></i> Home
+  </a>
+</div>
+
+  <section class="contact-section fade-in fade-in-delay-1">
+    <h2 class="fade-in fade-in-delay-2"><i class="fas fa-address-book"></i> Contact Me</h2>
+
+    <div class="contact-card fade-in fade-in-delay-3">
+  <p><i class="fas fa-phone"></i> <strong>Mobile:</strong> 8888255250</p>
+  <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:parthtanve315@gmail.com">parthtanve315@gmail.com</a></p>
+  <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/parth-tanve-310604258" target="_blank">linkedin.com/in/parth-tanve-310604258</a></p>
+  <p><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/ParthTanve" target="_blank">github.com/ParthTanve</a></p>
+  <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Nagpur, Maharashtra - 440002</p>
+</div>
+
+  </section>
+
+</body>
+</html>

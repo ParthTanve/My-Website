@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Education - Parth Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .education-section {
+      padding: 40px;
+      background-color: #111;
+      color: #fff;
+    }
+
+    .education-section h2 {
+      font-size: 28px;
+      color: #00ffcc;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .edu-card {
+      background-color: #1a1a1a;
+      border-left: 5px solid #00ffcc;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 255, 204, 0.1);
+    }
+
+    .edu-card h3 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .edu-card p {
+      margin: 6px 0;
+      font-size: 16px;
+    }
+
+    .semester {
+      background-color: #222;
+      padding: 12px 15px;
+      margin-top: 12px;
+      border-left: 3px solid #00cccc;
+      border-radius: 6px;
+    }
+
+    .semester h4 {
+      margin: 0 0 6px 0;
+      color: #00ffcc;
+    }
+
+    .marksheet-btn {
+      margin-top: 10px;
+      background-color: #00ffcc;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #000;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .marksheet-btn:hover {
+      background-color: #00bfa6;
+    }
+  .home{
+    background:white;
+  }
+ @keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.fade-in-delay-1 { animation-delay: 0.2s; }
+.fade-in-delay-2 { animation-delay: 0.4s; }
+.fade-in-delay-3 { animation-delay: 0.6s; }
+.fade-in-delay-4 { animation-delay: 0.8s; }
+.fade-in-delay-5 { animation-delay: 1s; }
+ </style>
+</head>
+<body>
+<div style="padding: 15px; background-color: #fff;">
+  <a href="index.html" style="text-decoration: none; font-weight: bold; color: #000;">
+    <i class="fas fa-home"></i> Home
+  </a>
+</div>
+
+    
+
+  <section class="education-section fade-in fade-in-delay-1">
+  <h2 class="fade-in fade-in-delay-2"><i class="fas fa-graduation-cap"></i> Education</h2>
+
+  <!-- Class X -->
+  <div class="edu-card fade-in fade-in-delay-3">
+    <h3>X | Shree Swaminarayan Gurukul International School, Nagpur</h3>
+    <p><strong>Percentage:</strong> 73% | <strong>Year:</strong> 2020</p>
+    <button class="marksheet-btn" onclick="window.open('SCORE10.pdf')">View Marksheet</button>
+  </div>
+
+  <!-- Class XII -->
+  <div class="edu-card fade-in fade-in-delay-4">
+    <h3>XII | Major Hemant Jakate Institute of Science and Commerce, Nagpur</h3>
+    <p><strong>Percentage:</strong> 81.67% | <strong>Year:</strong> 2022</p>
+    <button class="marksheet-btn" onclick="window.open('SCORE12.pdf')">View Marksheet</button>
+  </div>
+
+  <!-- B.Tech CSE -->
+  <div class="edu-card fade-in fade-in-delay-5">
+    <h3>CSE | GH Raisoni College of Engineering and Management, Nagpur</h3>
+    <p><strong>CGPA:</strong> 7.43 | <strong>Duration:</strong> 2022–2026</p>
+
+    <div class="semester fade-in fade-in-delay-1">
+      <h4>Semester 1</h4>
+      <p><strong>Skills:</strong> C, C++</p>
+      <button class="marksheet-btn" onclick="window.open('SCORE CARD 1.pdf')">View Marksheet</button>
+    </div>
+
+    <div class="semester fade-in fade-in-delay-2">
+      <h4>Semester 2</h4>
+      <p><strong>Skill:</strong> Data Structure and Algorithm</p>
+      <button class="marksheet-btn" onclick="window.open('SCORE CARD2.pdf')">View Marksheet</button>
+    </div>
+
+    <div class="semester fade-in fade-in-delay-3">
+      <h4>Semester 3</h4>
+      <p><strong>Skill:</strong> Python (pandas, Jupyter)</p>
+      <button class="marksheet-btn" onclick="window.open('SCORE CARD3.pdf')">View Marksheet</button>
+    </div>
+
+    <div class="semester fade-in fade-in-delay-4">
+      <h4>Semester 4</h4>
+      <p><strong>Skill:</strong> Web Development (Front End)</p>
+      <button class="marksheet-btn" onclick="window.open('SCORE CARD4.pdf')">View Marksheet</button>
+    </div>
+
+    <div class="semester fade-in fade-in-delay-5">
+      <h4>Semester 5</h4>
+      <p><strong>Skill:</strong> Machine Learning</p>
+      <button class="marksheet-btn" onclick="window.open('SCORE CARD5.pdf')">View Marksheet</button>
+    </div>
+   <div class="semester fade-in fade-in-delay-5">
+      <h4>Semester 6</h4>
+      <p><strong>Skill:</strong> Software Testing</p>
+      <button class="marksheet-btn" onclick="window.open('SCORE CARD6.pdf')">View Marksheet</button>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
